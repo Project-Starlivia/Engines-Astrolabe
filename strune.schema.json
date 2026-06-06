@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Strune dataset",
+  "description": "Strune のデータセット。ノードの配列(順序に意味はない)。",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "references"],
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "ノードの一意な識別子。人間可読な文字列を推奨。"
+      },
+      "references": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "参照先ノードの id の集合。各要素が 自ノード→参照先 の有向エッジ。"
+      },
+      "label": { "type": "string", "description": "表示名(拡張)。なければ id を表示。" },
+      "description": { "type": "string", "description": "短い説明文(拡張)。" }
+    },
+    "additionalProperties": true
+  }
+}

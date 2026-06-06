@@ -1,0 +1,18 @@
+{
+  "name": "engines-astrorabe",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Engine's Astrorabe — Strune knowledge-network viewer (game-engine dataset).",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build && bun run scripts/bundle.ts",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^6.0.7",
+    "vite-plugin-singlefile": "^2.1.0"
+  }
+}

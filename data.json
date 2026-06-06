@@ -1,0 +1,1105 @@
+[
+  {
+    "id": "game-engine",
+    "label": "GameEngine",
+    "references": [],
+    "description": "ゲーム開発に必要な描画・物理・入力などを統合した基盤ソフトウェアの総称。"
+  },
+  {
+    "id": "unity",
+    "label": "Unity",
+    "references": [
+      "game-engine",
+      "csharp",
+      "windows",
+      "macos",
+      "linux",
+      "ios",
+      "android",
+      "webgl",
+      "playstation",
+      "xbox",
+      "nintendo-switch",
+      "written-in-cpp",
+      "runs-on-windows",
+      "runs-on-macos",
+      "runs-on-linux",
+      "2d-rendering",
+      "3d-rendering",
+      "physics",
+      "built-in-gui-editor",
+      "physx",
+      "box2d",
+      "unity-technologies"
+    ],
+    "description": "世界で最も普及した汎用ゲームエンジン。2D/3D両対応でモバイルからコンソールまで幅広く展開できる。"
+  },
+  {
+    "id": "unreal-engine",
+    "label": "Unreal Engine",
+    "references": [
+      "game-engine",
+      "cpp",
+      "blueprints",
+      "windows",
+      "macos",
+      "linux",
+      "ios",
+      "android",
+      "playstation",
+      "xbox",
+      "nintendo-switch",
+      "written-in-cpp",
+      "runs-on-windows",
+      "runs-on-macos",
+      "runs-on-linux",
+      "3d-rendering",
+      "physics",
+      "built-in-gui-editor",
+      "chaos",
+      "epic-games"
+    ],
+    "description": "Epic Games製のハイエンドエンジン。フォトリアルな3D表現とBlueprintsが強み。"
+  },
+  {
+    "id": "godot",
+    "label": "Godot",
+    "references": [
+      "game-engine",
+      "gdscript",
+      "csharp",
+      "windows",
+      "macos",
+      "linux",
+      "ios",
+      "android",
+      "webgl",
+      "written-in-cpp",
+      "runs-on-windows",
+      "runs-on-macos",
+      "runs-on-linux",
+      "2d-rendering",
+      "3d-rendering",
+      "physics",
+      "built-in-gui-editor",
+      "open-source"
+    ],
+    "description": "軽量・無料のオープンソースエンジン。独自のGDScriptとシーンツリー構造が特徴。"
+  },
+  {
+    "id": "defold",
+    "label": "Defold",
+    "references": [
+      "game-engine",
+      "lua",
+      "windows",
+      "macos",
+      "linux",
+      "ios",
+      "android",
+      "webgl",
+      "playstation",
+      "nintendo-switch",
+      "written-in-cpp",
+      "runs-on-windows",
+      "runs-on-macos",
+      "runs-on-linux",
+      "2d-rendering",
+      "physics",
+      "built-in-gui-editor",
+      "box2d",
+      "defold-foundation"
+    ],
+    "description": "King発・現Defold Foundation運営の2D特化エンジン。軽量バイナリとコンソール公式対応が光る。"
+  },
+  {
+    "id": "bevy",
+    "label": "Bevy",
+    "references": [
+      "game-engine",
+      "rust",
+      "windows",
+      "macos",
+      "linux",
+      "ios",
+      "android",
+      "webgl",
+      "written-in-rust",
+      "runs-on-windows",
+      "runs-on-macos",
+      "runs-on-linux",
+      "2d-rendering",
+      "3d-rendering",
+      "cargo",
+      "open-source"
+    ],
+    "description": "Rust製のデータ駆動(ECS)エンジン。コードファーストで専用エディタを持たない。"
+  },
+  {
+    "id": "ebitengine",
+    "label": "Ebitengine",
+    "references": [
+      "game-engine",
+      "go",
+      "windows",
+      "macos",
+      "linux",
+      "ios",
+      "android",
+      "webgl",
+      "nintendo-switch",
+      "written-in-go",
+      "runs-on-windows",
+      "runs-on-macos",
+      "runs-on-linux",
+      "2d-rendering",
+      "hajime-hoshi",
+      "open-source"
+    ],
+    "description": "星一氏が個人開発するGo製2Dエンジン。「シンプルであること」を哲学に掲げる。"
+  },
+  {
+    "id": "siv3d",
+    "label": "Siv3D",
+    "references": [
+      "game-engine",
+      "cpp",
+      "windows",
+      "macos",
+      "linux",
+      "webgl",
+      "written-in-cpp",
+      "runs-on-windows",
+      "runs-on-macos",
+      "runs-on-linux",
+      "2d-rendering",
+      "3d-rendering",
+      "physics",
+      "box2d",
+      "ryo-suzuki"
+    ],
+    "description": "鈴木遼氏によるC++フレームワーク。創作と学習のために洗練されたAPIを持つ。"
+  },
+  {
+    "id": "gamemaker",
+    "label": "GameMaker",
+    "references": [
+      "game-engine",
+      "gml",
+      "windows",
+      "macos",
+      "linux",
+      "ios",
+      "android",
+      "webgl",
+      "playstation",
+      "xbox",
+      "nintendo-switch",
+      "written-in-cpp",
+      "runs-on-windows",
+      "runs-on-macos",
+      "2d-rendering",
+      "physics",
+      "built-in-gui-editor",
+      "box2d",
+      "yoyo-games"
+    ],
+    "description": "2Dゲーム制作の老舗。専用言語GMLとGUIエディタで素早く形にできる。"
+  },
+  {
+    "id": "roblox-engine",
+    "label": "Roblox Engine",
+    "references": [
+      "game-engine",
+      "luau",
+      "roblox",
+      "written-in-cpp",
+      "runs-on-windows",
+      "runs-on-macos",
+      "3d-rendering",
+      "physics",
+      "built-in-gui-editor",
+      "roblox-corporation"
+    ],
+    "description": "Roblox専用の開発環境(Roblox Studio)。Luauで書き、Robloxプラットフォームへ公開する。"
+  },
+  {
+    "id": "cocos2d",
+    "label": "Cocos2D",
+    "references": [
+      "game-engine",
+      "cpp",
+      "windows",
+      "macos",
+      "linux",
+      "ios",
+      "android",
+      "webgl",
+      "written-in-cpp",
+      "runs-on-windows",
+      "runs-on-macos",
+      "2d-rendering",
+      "physics",
+      "box2d",
+      "open-source"
+    ],
+    "description": "中国圏で存在感の強い2Dエンジン(cocos2d-x想定)。C++コアにLua/JSバインディング。"
+  },
+  {
+    "id": "phaser",
+    "label": "Phaser",
+    "references": [
+      "game-engine",
+      "javascript",
+      "webgl",
+      "runs-on-windows",
+      "runs-on-macos",
+      "runs-on-linux",
+      "2d-rendering",
+      "physics",
+      "npm",
+      "richard-davey",
+      "open-source"
+    ],
+    "description": "Webブラウザ向け2Dゲームフレームワークの定番。JavaScriptで書きnpmで配布される。"
+  },
+  {
+    "id": "scratch",
+    "label": "Scratch",
+    "references": [
+      "game-engine",
+      "programming-language",
+      "visual-scripting",
+      "webgl",
+      "2d-rendering",
+      "built-in-gui-editor",
+      "scratch-foundation",
+      "open-source",
+      "ugc"
+    ],
+    "description": "MIT発のビジュアルプログラミング環境。ブロックを繋いでゲームを作る、プログラミング教育の入口。"
+  },
+  {
+    "id": "programming-language",
+    "label": "ProgrammingLanguage",
+    "references": [],
+    "description": "コンピュータへの命令を記述するための形式言語の総称。"
+  },
+  {
+    "id": "csharp",
+    "label": "C#",
+    "references": [
+      "programming-language",
+      "cpp",
+      "dotnet",
+      "microsoft",
+      "oop"
+    ],
+    "description": "Microsoft製のオブジェクト指向言語。.NET上で動き、Unityのスクリプト言語として有名。"
+  },
+  {
+    "id": "cpp",
+    "label": "C++",
+    "references": [
+      "programming-language",
+      "c",
+      "oop"
+    ],
+    "description": "Cにオブジェクト指向などを加えた高性能言語。ゲームエンジン実装の覇者。"
+  },
+  {
+    "id": "blueprints",
+    "label": "Blueprints",
+    "references": [
+      "programming-language",
+      "visual-scripting"
+    ],
+    "description": "Unreal Engineのビジュアルスクリプティング。ノードを繋いでロジックを組む。"
+  },
+  {
+    "id": "gdscript",
+    "label": "GDScript",
+    "references": [
+      "programming-language",
+      "python"
+    ],
+    "description": "Godot専用のスクリプト言語。Python風の文法で書きやすい。"
+  },
+  {
+    "id": "lua",
+    "label": "Lua",
+    "references": [
+      "programming-language"
+    ],
+    "description": "組み込み用途に特化した軽量スクリプト言語。ゲーム業界での採用例多数。"
+  },
+  {
+    "id": "rust",
+    "label": "Rust",
+    "references": [
+      "programming-language",
+      "functional-programming"
+    ],
+    "description": "所有権システムでメモリ安全を保証するシステム言語。関数型の影響も色濃い。"
+  },
+  {
+    "id": "go",
+    "label": "Go",
+    "references": [
+      "programming-language",
+      "google"
+    ],
+    "description": "Google製のシンプルさ重視の言語。並行処理と高速コンパイルが持ち味。"
+  },
+  {
+    "id": "gml",
+    "label": "GML",
+    "references": [
+      "programming-language"
+    ],
+    "description": "GameMaker専用のスクリプト言語。"
+  },
+  {
+    "id": "luau",
+    "label": "Luau",
+    "references": [
+      "programming-language",
+      "lua"
+    ],
+    "description": "RobloxによるLua方言。型注釈と高速化が加えられている。"
+  },
+  {
+    "id": "javascript",
+    "label": "JavaScript",
+    "references": [
+      "programming-language"
+    ],
+    "description": "Webブラウザの共通言語。ゲームもツールもこれ一本で動く。"
+  },
+  {
+    "id": "visual-scripting",
+    "label": "VisualScripting",
+    "references": [
+      "programming-language"
+    ],
+    "description": "コードの代わりにノードやブロックで処理を組む方式の総称。"
+  },
+  {
+    "id": "c",
+    "label": "C",
+    "references": [
+      "programming-language"
+    ],
+    "description": "1972年生まれのシステムプログラミング言語。多くの言語とOSの祖。"
+  },
+  {
+    "id": "python",
+    "label": "Python",
+    "references": [
+      "programming-language"
+    ],
+    "description": "読みやすさ重視の汎用言語。GDScriptの文法に影響を与えた。"
+  },
+  {
+    "id": "monobehaviour",
+    "label": "MonoBehaviour",
+    "references": [
+      "unity",
+      "csharp"
+    ],
+    "description": "Unityスクリプトの基底クラス。コンポーネントとしてGameObjectにぶら下がる。"
+  },
+  {
+    "id": "unreal-cpp",
+    "label": "Unreal C++",
+    "references": [
+      "unreal-engine",
+      "cpp"
+    ],
+    "description": "UE流のC++。リフレクションやGCをマクロ群で実現する独自方言。"
+  },
+  {
+    "id": "platform",
+    "label": "Platform",
+    "references": [],
+    "description": "ゲームが動作する環境(OS・ハード・サービス)の総称。このマップではビルド先の意味で使う。"
+  },
+  {
+    "id": "windows",
+    "label": "Windows",
+    "references": [
+      "platform"
+    ],
+    "description": "PCゲームの最大市場を持つMicrosoft製OS。"
+  },
+  {
+    "id": "macos",
+    "label": "macOS",
+    "references": [
+      "platform",
+      "apple"
+    ],
+    "description": "Apple製のデスクトップOS。"
+  },
+  {
+    "id": "linux",
+    "label": "Linux",
+    "references": [
+      "platform",
+      "open-source"
+    ],
+    "description": "オープンソースOSの代表。Steam Deckの土台でもある。"
+  },
+  {
+    "id": "ios",
+    "label": "iOS",
+    "references": [
+      "platform",
+      "apple",
+      "smartphone"
+    ],
+    "description": "AppleのモバイルOS。iPhone/iPadで動く。"
+  },
+  {
+    "id": "android",
+    "label": "Android",
+    "references": [
+      "platform",
+      "google",
+      "linux",
+      "smartphone"
+    ],
+    "description": "GoogleのモバイルOS。Linuxカーネルの上に築かれている。"
+  },
+  {
+    "id": "webgl",
+    "label": "WebGL",
+    "references": [
+      "platform"
+    ],
+    "description": "ブラウザ上で2D/3D描画を行うAPI。インストール不要で配布できるのが強み。"
+  },
+  {
+    "id": "playstation",
+    "label": "PlayStation",
+    "references": [
+      "platform"
+    ],
+    "description": "ソニー(SIE)の家庭用ゲーム機ブランド。"
+  },
+  {
+    "id": "xbox",
+    "label": "Xbox",
+    "references": [
+      "platform"
+    ],
+    "description": "Microsoftの家庭用ゲーム機ブランド。"
+  },
+  {
+    "id": "nintendo-switch",
+    "label": "Nintendo Switch",
+    "references": [
+      "platform"
+    ],
+    "description": "任天堂の携帯/据置ハイブリッド機。"
+  },
+  {
+    "id": "roblox",
+    "label": "Roblox",
+    "references": [
+      "platform",
+      "ugc"
+    ],
+    "description": "遊ぶ側と作る側が同じ場所に集まるゲーム共有プラットフォーム。"
+  },
+  {
+    "id": "written-in-cpp",
+    "label": "Written in C++",
+    "references": [
+      "cpp"
+    ],
+    "description": "「本体(コア)がC++で実装されている」ことを表す関係ノード。"
+  },
+  {
+    "id": "written-in-rust",
+    "label": "Written in Rust",
+    "references": [
+      "rust"
+    ],
+    "description": "「本体(コア)がRustで実装されている」ことを表す関係ノード。"
+  },
+  {
+    "id": "written-in-go",
+    "label": "Written in Go",
+    "references": [
+      "go"
+    ],
+    "description": "「本体(コア)がGoで実装されている」ことを表す関係ノード。"
+  },
+  {
+    "id": "runs-on-windows",
+    "label": "Runs on Windows",
+    "references": [
+      "windows"
+    ],
+    "description": "「開発環境(エディタ・ツール)がWindowsで動く」ことを表す関係ノード。"
+  },
+  {
+    "id": "runs-on-macos",
+    "label": "Runs on macOS",
+    "references": [
+      "macos"
+    ],
+    "description": "「開発環境(エディタ・ツール)がmacOSで動く」ことを表す関係ノード。"
+  },
+  {
+    "id": "runs-on-linux",
+    "label": "Runs on Linux",
+    "references": [
+      "linux"
+    ],
+    "description": "「開発環境(エディタ・ツール)がLinuxで動く」ことを表す関係ノード。"
+  },
+  {
+    "id": "2d-rendering",
+    "label": "2D Rendering",
+    "references": [],
+    "description": "スプライトやタイルによる2D描画機能。"
+  },
+  {
+    "id": "3d-rendering",
+    "label": "3D Rendering",
+    "references": [],
+    "description": "メッシュ・マテリアル・ライティングによる3D描画機能。"
+  },
+  {
+    "id": "physics",
+    "label": "Physics",
+    "references": [],
+    "description": "剛体・衝突判定などの物理シミュレーション機能。"
+  },
+  {
+    "id": "built-in-gui-editor",
+    "label": "Built-in GUI Editor",
+    "references": [],
+    "description": "シーン編集などを行う専用GUIエディタを同梱していること。ライブラリ型との分水嶺。"
+  },
+  {
+    "id": "box2d",
+    "label": "Box2D",
+    "references": [
+      "physics",
+      "open-source"
+    ],
+    "description": "Erin Catto作の2D物理エンジン。無数のエンジンに組み込まれる業界標準。"
+  },
+  {
+    "id": "physx",
+    "label": "PhysX",
+    "references": [
+      "physics"
+    ],
+    "description": "NVIDIA製の3D物理エンジン。Unityの3D物理の中身。"
+  },
+  {
+    "id": "chaos",
+    "label": "Chaos Physics",
+    "references": [
+      "physics"
+    ],
+    "description": "Epic製の物理エンジン。UE5でPhysXを置き換えた。"
+  },
+  {
+    "id": "rapier",
+    "label": "Rapier",
+    "references": [
+      "physics",
+      "rust",
+      "open-source"
+    ],
+    "description": "Rust製の2D/3D物理エンジン。"
+  },
+  {
+    "id": "bevy-rapier",
+    "label": "bevy_rapier",
+    "references": [
+      "bevy",
+      "rapier"
+    ],
+    "description": "RapierをBevyへ繋ぐ橋渡しクレート。Bevy本体が物理を持たない隙間を埋める。"
+  },
+  {
+    "id": "asset-store",
+    "label": "Asset Store",
+    "references": [],
+    "description": "素材・プラグインを売買するマーケットプレイスの総称。"
+  },
+  {
+    "id": "unity-asset-store",
+    "label": "Unity Asset Store",
+    "references": [
+      "asset-store",
+      "unity"
+    ],
+    "description": "Unity公式のアセット市場。エコシステムの厚みの象徴。"
+  },
+  {
+    "id": "fab",
+    "label": "Fab",
+    "references": [
+      "asset-store",
+      "unreal-engine",
+      "unity"
+    ],
+    "description": "Epicの統合マーケットプレイス。旧UE Marketplaceの後継で、Unity向けアセットも扱う。"
+  },
+  {
+    "id": "godot-asset-library",
+    "label": "Godot Asset Library",
+    "references": [
+      "asset-store",
+      "godot"
+    ],
+    "description": "Godot公式の無料アセット集積所。"
+  },
+  {
+    "id": "roblox-creator-store",
+    "label": "Roblox Creator Store",
+    "references": [
+      "asset-store",
+      "roblox-engine"
+    ],
+    "description": "Roblox向けの素材・モデル市場。"
+  },
+  {
+    "id": "package-manager",
+    "label": "Package Manager",
+    "references": [],
+    "description": "ライブラリの導入・更新・依存解決を管理するツールの総称。"
+  },
+  {
+    "id": "npm",
+    "label": "npm",
+    "references": [
+      "package-manager",
+      "javascript"
+    ],
+    "description": "JavaScript圏の巨大パッケージレジストリ。"
+  },
+  {
+    "id": "cargo",
+    "label": "Cargo / crates.io",
+    "references": [
+      "package-manager",
+      "rust"
+    ],
+    "description": "Rust公式のビルドツール兼パッケージマネージャ。"
+  },
+  {
+    "id": "upm",
+    "label": "Unity Package Manager",
+    "references": [
+      "package-manager",
+      "unity"
+    ],
+    "description": "Unity公式のパッケージ管理機構。"
+  },
+  {
+    "id": "dotnet",
+    "label": ".NET",
+    "references": [
+      "microsoft"
+    ],
+    "description": "Microsoftの実行環境・エコシステム。C#の足場。"
+  },
+  {
+    "id": "threejs",
+    "label": "Three.js",
+    "references": [
+      "javascript",
+      "3d-rendering",
+      "webgl",
+      "npm",
+      "runs-on-windows",
+      "runs-on-macos",
+      "runs-on-linux",
+      "mrdoob",
+      "open-source"
+    ],
+    "description": "mrdoob作のJavaScript 3D描画ライブラリ。WebGL界の事実上の標準。"
+  },
+  {
+    "id": "babylonjs",
+    "label": "Babylon.js",
+    "references": [
+      "game-engine",
+      "javascript",
+      "3d-rendering",
+      "webgl",
+      "physics",
+      "npm",
+      "runs-on-windows",
+      "runs-on-macos",
+      "runs-on-linux",
+      "microsoft",
+      "typescript",
+      "open-source"
+    ],
+    "description": "Microsoft系のWeb 3Dエンジン。TypeScript製で、物理や音までゲームエンジン級の装備を持つ。"
+  },
+  {
+    "id": "dxlib",
+    "label": "DxLib",
+    "references": [
+      "game-engine",
+      "cpp",
+      "2d-rendering",
+      "windows",
+      "android",
+      "ios",
+      "written-in-cpp",
+      "runs-on-windows",
+      "takumi-yamada"
+    ],
+    "description": "山田巧氏によるC++ゲームライブラリ。日本の同人・学習文化を長年支えるWindows定番。"
+  },
+  {
+    "id": "developer",
+    "label": "Developer",
+    "references": [],
+    "description": "エンジンやライブラリを生み出した個人・組織。"
+  },
+  {
+    "id": "unity-technologies",
+    "label": "Unity Technologies",
+    "references": [
+      "developer"
+    ],
+    "description": "Unityの開発元。"
+  },
+  {
+    "id": "epic-games",
+    "label": "Epic Games",
+    "references": [
+      "developer"
+    ],
+    "description": "FortniteとUnreal EngineのEpic。エンジンとストアの両輪で展開する。"
+  },
+  {
+    "id": "microsoft",
+    "label": "Microsoft",
+    "references": [
+      "developer"
+    ],
+    "description": "C#・.NET・TypeScript・Babylon.jsを擁する巨大ハブ。Xboxも傘下。"
+  },
+  {
+    "id": "yoyo-games",
+    "label": "YoYo Games",
+    "references": [
+      "developer"
+    ],
+    "description": "GameMakerの開発元。"
+  },
+  {
+    "id": "roblox-corporation",
+    "label": "Roblox Corporation",
+    "references": [
+      "developer"
+    ],
+    "description": "Robloxの運営会社。"
+  },
+  {
+    "id": "defold-foundation",
+    "label": "Defold Foundation",
+    "references": [
+      "developer"
+    ],
+    "description": "Defoldの開発を支える財団。"
+  },
+  {
+    "id": "scratch-foundation",
+    "label": "Scratch Foundation",
+    "references": [
+      "developer"
+    ],
+    "description": "Scratchを運営する非営利団体。MIT発。"
+  },
+  {
+    "id": "hajime-hoshi",
+    "label": "Hajime Hoshi",
+    "references": [
+      "developer"
+    ],
+    "description": "Ebitengineの作者。個人開発エンジンを世界に届けた。"
+  },
+  {
+    "id": "ryo-suzuki",
+    "label": "Ryo Suzuki",
+    "references": [
+      "developer"
+    ],
+    "description": "Siv3Dの作者。"
+  },
+  {
+    "id": "takumi-yamada",
+    "label": "Takumi Yamada",
+    "references": [
+      "developer"
+    ],
+    "description": "DxLibの作者。"
+  },
+  {
+    "id": "mrdoob",
+    "label": "mrdoob",
+    "references": [
+      "developer"
+    ],
+    "description": "Three.jsの作者(Ricardo Cabello)。"
+  },
+  {
+    "id": "richard-davey",
+    "label": "Richard Davey",
+    "references": [
+      "developer"
+    ],
+    "description": "Phaserの作者。"
+  },
+  {
+    "id": "typescript",
+    "label": "TypeScript",
+    "references": [
+      "programming-language",
+      "javascript",
+      "microsoft"
+    ],
+    "description": "Microsoft製のJavaScript拡張。静的型付けで大規模開発を支える。"
+  },
+  {
+    "id": "audio-middleware",
+    "label": "Audio Middleware",
+    "references": [],
+    "description": "サウンドの再生・制御を専門に担う外部ツール群。"
+  },
+  {
+    "id": "fmod",
+    "label": "FMOD",
+    "references": [
+      "audio-middleware",
+      "unity",
+      "unreal-engine"
+    ],
+    "description": "定番サウンドミドルウェア。Unity/UE公式対応。"
+  },
+  {
+    "id": "wwise",
+    "label": "Wwise",
+    "references": [
+      "audio-middleware",
+      "unity",
+      "unreal-engine"
+    ],
+    "description": "AAA開発で多用されるAudiokinetic製ミドルウェア。"
+  },
+  {
+    "id": "criware",
+    "label": "CRI ADX (CRIWARE)",
+    "references": [
+      "audio-middleware",
+      "unity",
+      "unreal-engine"
+    ],
+    "description": "国産ゲームの定番、CRIのサウンドミドルウェア(ADX)。"
+  },
+  {
+    "id": "apple",
+    "label": "Apple",
+    "references": [
+      "developer"
+    ],
+    "description": "iPhone・Mac・iOSの開発元。"
+  },
+  {
+    "id": "google",
+    "label": "Google",
+    "references": [
+      "developer"
+    ],
+    "description": "AndroidとGoの開発元。"
+  },
+  {
+    "id": "touch-device",
+    "label": "Touch Device",
+    "references": [],
+    "description": "タッチ操作を入力とするデバイスの総称。UI設計の前提を変える。"
+  },
+  {
+    "id": "smartphone",
+    "label": "Smartphone",
+    "references": [
+      "touch-device"
+    ],
+    "description": "携帯電話とタッチパネルが融合した汎用端末。モバイルゲームの主戦場。"
+  },
+  {
+    "id": "iphone",
+    "label": "iPhone",
+    "references": [
+      "ios",
+      "apple"
+    ],
+    "description": "Appleのスマートフォン。iOSで動く。"
+  },
+  {
+    "id": "ipad",
+    "label": "iPad",
+    "references": [
+      "ios",
+      "apple",
+      "touch-device"
+    ],
+    "description": "Appleのタブレット。"
+  },
+  {
+    "id": "open-source",
+    "label": "Open Source",
+    "references": [],
+    "description": "ソースコードが公開され、誰でも利用・改変・再配布できること。"
+  },
+  {
+    "id": "programming-paradigm",
+    "label": "Programming Paradigm",
+    "references": [],
+    "description": "プログラムの組み立て方の思想・様式。"
+  },
+  {
+    "id": "oop",
+    "label": "Object-Oriented Programming",
+    "references": [
+      "programming-paradigm"
+    ],
+    "description": "データと振る舞いをオブジェクトに束ねるパラダイム。"
+  },
+  {
+    "id": "functional-programming",
+    "label": "Functional Programming",
+    "references": [
+      "programming-paradigm"
+    ],
+    "description": "関数合成と不変データを軸とするパラダイム。"
+  },
+  {
+    "id": "game",
+    "label": "Game",
+    "references": [],
+    "description": "完成品としてのゲーム作品。エンジンの実力のいちばん雄弁な証明。"
+  },
+  {
+    "id": "hollow-knight",
+    "label": "Hollow Knight",
+    "references": [
+      "game",
+      "unity"
+    ],
+    "description": "Team Cherryのメトロイドヴァニア傑作。Unity製2Dの代表格。"
+  },
+  {
+    "id": "fortnite",
+    "label": "Fortnite",
+    "references": [
+      "game",
+      "unreal-engine",
+      "epic-games",
+      "ugc"
+    ],
+    "description": "Epic自身が作るUEのショーケース。その莫大な収益がUE開発を支え、UEFNを得てUGCプラットフォームへ進化した。"
+  },
+  {
+    "id": "buckshot-roulette",
+    "label": "Buckshot Roulette",
+    "references": [
+      "game",
+      "godot"
+    ],
+    "description": "悪魔とのロシアンルーレット。Godot製インディーの大ヒット作。"
+  },
+  {
+    "id": "monkey-mart",
+    "label": "Monkey Mart",
+    "references": [
+      "game",
+      "defold"
+    ],
+    "description": "ブラウザで遊べる経営ゲーム。Web市場におけるDefoldの強さの実例。"
+  },
+  {
+    "id": "tiny-glade",
+    "label": "Tiny Glade",
+    "references": [
+      "game",
+      "bevy"
+    ],
+    "description": "城と庭を撫でるように作る箱庭ゲーム。BevyのECSを核に採用(描画は独自実装)。"
+  },
+  {
+    "id": "bears-restaurant",
+    "label": "Bear's Restaurant",
+    "references": [
+      "game",
+      "ebitengine"
+    ],
+    "description": "Odencatの感動作「くまのレストラン」。Ebitengine製の代表格としてSwitchにも展開。"
+  },
+  {
+    "id": "undertale",
+    "label": "Undertale",
+    "references": [
+      "game",
+      "gamemaker"
+    ],
+    "description": "Toby Fox個人開発の金字塔。GameMakerの可能性を世界に示した。"
+  },
+  {
+    "id": "adopt-me",
+    "label": "Adopt Me!",
+    "references": [
+      "game",
+      "roblox-engine"
+    ],
+    "description": "Roblox最大級のヒット作。プラットフォーム内経済の象徴。"
+  },
+  {
+    "id": "monster-strike",
+    "label": "Monster Strike",
+    "references": [
+      "game",
+      "cocos2d"
+    ],
+    "description": "ミクシィの国民的スマホゲーム「モンスト」。Cocos2d-x採用例として有名。"
+  },
+  {
+    "id": "vampire-survivors",
+    "label": "Vampire Survivors",
+    "references": [
+      "game",
+      "phaser"
+    ],
+    "description": "Phaser製として生まれた大ヒット作。のちにUnityへ移植された出世魚。"
+  },
+  {
+    "id": "ugc",
+    "label": "UGC",
+    "references": [],
+    "description": "ユーザー自身が作るコンテンツ(User-Generated Content)。遊び手と作り手の境界を溶かす潮流。"
+  },
+  {
+    "id": "uefn",
+    "label": "UEFN",
+    "references": [
+      "unreal-engine",
+      "fortnite",
+      "ugc"
+    ],
+    "description": "Unreal Editor for Fortnite。UEの技術でFortnite内の体験を制作・公開できる公式ツール。FortniteをUGCプラットフォームへ変えた。"
+  }
+]
