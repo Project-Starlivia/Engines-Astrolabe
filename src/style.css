@@ -79,6 +79,27 @@ nav{
 #trail .sep{color:var(--violet);cursor:default}
 #trail .here{color:var(--lavender);cursor:default}
 
+/* ── WIP banner ─────────────────────── */
+#wipBanner{
+  display:flex;align-items:center;gap:11px;
+  flex:none;z-index:5;margin:0 22px 8px;padding:7px 12px;
+  font-size:11px;color:var(--ink-dim);letter-spacing:.03em;line-height:1.55;
+  background:rgba(205,168,106,.08);
+  border:1px solid rgba(205,168,106,.28);border-radius:8px;
+}
+#wipBanner.hidden{display:none}
+.wip-tag{
+  flex:none;font-family:var(--sans);font-weight:700;font-size:9px;letter-spacing:.18em;
+  color:var(--bg-deep);background:var(--brass);padding:3px 8px;border-radius:5px;
+}
+.wip-text{flex:1}
+.wip-text b{color:var(--lavender);font-weight:700}
+#wipClose{
+  flex:none;background:transparent;border:none;color:var(--ink-dim);
+  font-size:16px;line-height:1;cursor:pointer;padding:0 2px;transition:color .15s;
+}
+#wipClose:hover{color:var(--ink)}
+
 /* ── board ──────────────────────────── */
 #board{flex:1;position:relative;display:flex;align-items:stretch;padding:6px 26px 22px;min-height:0}
 #wires{position:absolute;inset:0;pointer-events:none;z-index:1}

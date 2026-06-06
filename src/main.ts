@@ -186,5 +186,26 @@ leftList.addEventListener('scroll', () => requestAnimationFrame(drawWires));
 rightList.addEventListener('scroll', () => requestAnimationFrame(drawWires));
 window.addEventListener('resize', () => requestAnimationFrame(drawWires));
 
+/* WIP banner: dismissible, remembered across visits */
+const wipBanner = document.getElementById('wipBanner');
+if (wipBanner) {
+  const KEY = 'strune.wip.dismissed';
+  let dismissed = false;
+  try {
+    dismissed = localStorage.getItem(KEY) === '1';
+  } catch {
+    /* localStorage unavailable (e.g. some file:// contexts) — show banner */
+  }
+  if (dismissed) wipBanner.classList.add('hidden');
+  document.getElementById('wipClose')?.addEventListener('click', () => {
+    wipBanner.classList.add('hidden');
+    try {
+      localStorage.setItem(KEY, '1');
+    } catch {
+      /* ignore persistence failure */
+    }
+  });
+}
+
 /* boot */
 go('game-engine');
